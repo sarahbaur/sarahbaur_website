@@ -8,10 +8,16 @@ var modalImg = document.getElementById("img01");
 document.querySelectorAll('.gallery-img').forEach(img => {
     img.onclick = function() {
         modal.style.display = "block";
-        modalImg.src = this.src; // Set the src of the modal image to the src of the clicked image
-        modalImg.alt = this.alt; // Set the alt text of the modal image to the alt text of the clicked image
+        modalImg.src = this.src;
+        modalImg.alt = this.alt;
+
+        // Set the title, size, and description for the modal
+        document.getElementById('imgTitle').textContent = this.getAttribute('data-title');
+        document.getElementById('imgSize').textContent = this.getAttribute('data-size');
+        document.getElementById('imgDescription').textContent = this.getAttribute('data-description');
     }
 });
+
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];

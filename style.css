@@ -68,8 +68,8 @@ a:hover {
 .gallery {
     display: grid;
     grid-auto-rows: 35vh; /* Set a fixed height for rows */
-    grid-template-columns: repeat(auto-fit, minmax(40vh, 1fr)); /* Responsive columns */
-    grid-gap: 2vw; /* Spacing between images */
+    grid-template-columns: repeat(auto-fit, minmax(60vh, 1fr)); /* Responsive columns */
+    grid-gap: 1vw; /* Spacing between images */
     margin-top: 2.4vh;
     margin-left: 5vw;
     margin-right: 10vw;
@@ -98,7 +98,7 @@ a:hover {
 .modal-content {
     margin: auto;
     display: block;
-    height: 80%;
+    height: 70%;
     max-width: 90%;
     margin-top: 6vh
 }
@@ -183,4 +183,25 @@ a:hover {
 
 .contact a:hover {
     color: #282828;
+}
+
+#imgTitle {
+    color: #fff; /* Change the color as needed */
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 24px; /* Adjust font size as necessary */
+}
+
+#imgSize {
+    color: #fff; /* Change the color as needed */
+    text-align: center;
+    margin-top: 5px;
+    font-size: 14px; /* Adjust font size as necessary */
+}
+#imgDescription {
+    color: #fff; /* Adjust if necessary for consistency */
+    text-align: center;
+    margin-top: 5px;
+    font-size: 14px; /* Adjust font size as necessary */
 }
