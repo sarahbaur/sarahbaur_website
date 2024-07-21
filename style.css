@@ -58,6 +58,7 @@ a:hover {
 
 /* Content area (title and menu) */
 .content {
+    position: fixed;
     min-width: 10vw;  /* Adjust based on your layout needs */
     margin-right: 1vw;
     margin-top: 3px;
@@ -71,7 +72,7 @@ a:hover {
     grid-template-columns: repeat(auto-fit, minmax(60vh, 1fr)); /* Responsive columns */
     grid-gap: 1vw; /* Spacing between images */
     margin-top: 2.4vh;
-    margin-left: 5vw;
+    margin-left: 15vw;
     margin-right: 10vw;
 
 }
@@ -137,7 +138,7 @@ a:hover {
     justify-content: left;
     text-align: left;
     flex-direction: column; /* Stack items vertically on smaller screens */
-    margin-left: 5vw;
+    margin-left: 15vw;
 }
 
 .about p {
@@ -162,7 +163,7 @@ a:hover {
     justify-content: left;
     text-align: left;
     flex-direction: column; /* Stack items vertically on smaller screens */
-    margin-left: 5vw;
+    margin-left: 15vw;
 }
 
 
